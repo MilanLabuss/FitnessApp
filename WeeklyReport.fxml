@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <TableView onMouseClicked="#WeeklyReport" prefHeight="450.0" prefWidth="550.0">
+        <columns>
+            <TableColumn fx:id="col_date" prefWidth="137.5" text="Date" />
+            <TableColumn fx:id="col_exercise" prefWidth="137.5" text="Exercise" />
+            <TableColumn fx:id="col_reps" prefWidth="137.5" text="Reps" />
+            <TableColumn fx:id="col_weight" prefWidth="137.5" text="Weight" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>
